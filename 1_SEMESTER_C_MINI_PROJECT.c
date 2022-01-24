@@ -35,7 +35,7 @@ void guess(int N)
         printf("\033[1;32m");
         printf("%d\n",amount);
         printf("\033[1;34m"); 
-        printf("Make you bet : $");
+        printf("Make your bet : $");
         printf("\033[1;37m");
         scanf("%d",&bet);
         if(bet>amount)
